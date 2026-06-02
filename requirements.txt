@@ -1,0 +1,22 @@
+# AuraLab Borborema - dependencias do DASHBOARD
+# Este arquivo eh usado pelo Streamlit Community Cloud.
+# Nao inclui pywin32 (so funciona em Windows com Outlook desktop).
+
+# Dados
+pandas==2.2.3
+xlrd==1.2.0
+openpyxl==3.1.5
+
+# Dashboard
+streamlit==1.39.0
+streamlit-option-menu==0.4.0
+streamlit-authenticator==0.4.1
+plotly==5.24.1
+
+# Auth
+bcrypt==4.2.0
+PyYAML==6.0.2
+
+# Utils
+python-dateutil==2.9.0.post0
+loguru==0.7.2

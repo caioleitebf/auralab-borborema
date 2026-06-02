@@ -1,0 +1,7 @@
+# Dependencias EXTRAS para rodar o COLETOR no PC do Caio.
+# pywin32 = acesso ao Outlook desktop via COM.
+# Use: pip install -r requirements-local.txt
+# (Depois do requirements.txt)
+
+-r requirements.txt
+pywin32==308

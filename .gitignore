@@ -1,0 +1,42 @@
+# Dados sensiveis
+anexos/
+logs/
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.auralab_venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.claude/
+
+# Temp e backup
+*.bak
+*.tmp
+~$*
+*.swp
+*.log
+
+# OneDrive
+.dropbox
+.dropbox.attr
+
+# Tests internos (artefatos)
+tests/_inspecao_*.txt
+tests/_labels_*.txt
+tests/_tq_bullion.txt
+tests/_pptx_imgs/
+tests/_api_xlsx_imgs/
+
+# Outputs gerados localmente
+PRD.pdf
+**/Modelo de Cores.pptx
