@@ -207,6 +207,25 @@ hr {{
     font-weight: 500;
 }}
 
+/* ---- Botao "Sair" do streamlit-authenticator (contraste correto) ---- */
+[data-testid="stSidebar"] button[kind="secondary"] {{
+    background-color: var(--aura-coral) !important;
+    color: #fff !important;
+    border: 1px solid var(--aura-coral) !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+}}
+[data-testid="stSidebar"] button[kind="secondary"]:hover {{
+    background-color: var(--aura-coral-med) !important;
+    border-color: var(--aura-coral-med) !important;
+    color: #fff !important;
+}}
+[data-testid="stSidebar"] button[kind="secondary"] p,
+[data-testid="stSidebar"] button[kind="secondary"] span {{
+    color: #fff !important;
+    font-weight: 600 !important;
+}}
+
 /* ---- Download button na sidebar (mesmo destaque do "Atualizar dados") ---- */
 [data-testid="stSidebar"] [data-testid="stDownloadButton"] button {{
     background-color: var(--aura-coral) !important;
